@@ -21,6 +21,12 @@ public class SpringConfig {
         this.memberRepository = memberRepository;
     }
 
+    /* 주로 공통 부분은 Config에 Bean으로 별도 등록해서 관리함 */
+//    @Bean
+//    public TimeTraceAop timeTraceAop() {
+//        return new TimeTraceAop();
+//    }
+
     /* JPA 사용을 위한 EntityManager Bean 생성 및 DI */
 //    private EntityManager em;
 //
